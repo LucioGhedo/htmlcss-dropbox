@@ -16,7 +16,7 @@ img {
 }
 .flex-container {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 }
 a {
@@ -38,7 +38,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: white;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 header img {
     padding: 0 20px;
@@ -60,4 +60,42 @@ header ul li {
     width: 340px;
     padding: 0 10px;
 }
-/* MAIN */
+
+/* JUMBO */
+.jumbo {
+    padding-top: 70px;
+    width: 85%;
+    padding: 90px;
+}
+.jumbo-bck {
+    background-color: #b4d0e7;
+}
+h1 {
+    font-size: 95px;
+    padding-top: 50px;
+}
+.jumbo-text {
+    width: 90%;
+}
+.jumbo-text p {
+    line-height: 25px;
+    padding-top: 30px;
+    width: 270px;
+    padding-bottom: 25px;
+}
+.padding-top {
+    padding: 25px 0;
+}
+.arrow {
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+.jumbo-img {
+    width: 800px;
+    position: absolute;
+    bottom: -60px;
+    right: 500px;
+}
+.position-r {
+    position: relative;
+}
