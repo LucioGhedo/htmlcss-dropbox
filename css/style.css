@@ -417,3 +417,42 @@ p span {
     display: flex;
     justify-content: space-between;
 }
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+
+    /* TEST */
+    height: 450px;
+}
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.title-ul {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+footer ul li {
+    padding: 5px 0;
+}
+footer li:last-child {
+    padding-bottom: 100px;
+}
+footer hr {
+    width: 100px;
+    margin-left: 190px;
+    margin-bottom: 80px;
+}
+.footer-pos {
+    position: relative;
+}
+.footer-pos-abs {
+    position: absolute;
+    left: 190px;
+    bottom: 25px;
+    color: grey;
+}
