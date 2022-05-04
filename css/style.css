@@ -417,6 +417,7 @@ p span {
     padding-bottom: 30px;
     font-weight: 700;
     border-top: solid lightgrey 1px;
+    position: relative;
 }
 .last {
     border-bottom: solid lightgray 1px;
@@ -484,7 +485,7 @@ footer hr {
     margin-bottom: 100px;
 }
 
-/* BONUS */
+/* BONUS 1 */
 .bonus-s {
     position: relative;
 }
@@ -505,4 +506,36 @@ footer hr {
 }
 .no-hover:hover {
     border: none;
+}
+
+/* BONUS 2 */
+.bonus-2 {
+    display: none;
+    top: 50px;
+    position: absolute;
+    color: black;
+    min-width: 100%;
+    z-index: 1;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+.faq:hover .bonus-2 {
+    display: inline-block;
+}
+.bonus-height:hover {
+    height: +150px;
+}
+.bonus-2 p {
+    color: grey;
+    font-weight: normal;
+
+}
+.faq:hover .arrow-bonus {
+    display: none;
+}
+.arrow-bonus-hover {
+    display: none;
+}
+.faq:hover .arrow-bonus-hover {
+    display: block;
 }
