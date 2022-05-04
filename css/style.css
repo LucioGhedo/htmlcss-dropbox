@@ -79,9 +79,8 @@ header ul li {
 
 /* JUMBO */
 .jumbo {
-    padding-top: 70px;
     width: 97%;
-    padding: 90px;
+    padding: 90px 140px;
 }
 .jumbo-bck {
     background-color: #b4d0e7;
@@ -92,6 +91,7 @@ h1 {
 }
 .jumbo-text {
     width: 90%;
+    padding-left: 50px;
 }
 .jumbo-text p {
     line-height: 25px;
