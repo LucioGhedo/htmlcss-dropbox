@@ -112,7 +112,7 @@ h1 {
     padding-bottom: 50px;
 }
 .jumbo-img {
-    width: 60%;
+    width: calc((100% / 2) + 50px);
     position: absolute;
     bottom: -60px;
     right: 0;
@@ -329,8 +329,9 @@ p span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 316.5px;
-    height: 300px;
+    /* width: 316.5px; */
+    width: calc(100% / 2);
+    height: calc(100% / 2);
 }
 /* colori quadrati partner */
 .green-sq {
