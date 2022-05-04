@@ -259,7 +259,7 @@ h1 {
 .flex-col-2 {
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
+    padding: 20px 30px;
     width: calc((69% / 3) + 80px)
 }
 .container-col-2 {
@@ -267,4 +267,29 @@ h1 {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+}
+.flex-col-2 h3 {
+    font-size: 25px;
+}
+.flex-col-2 p {
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+p span {
+    text-decoration: underline;
+}
+/* PARTNER SECTION */
+.partners-titolo {
+    font-size: 40px;
+    padding-left: 40px;
+}
+.link-partner {
+    padding: 40px 40px;
+}
+.link-partner a {
+    text-decoration: underline;
+    color: blue;
+}
+.column-partners {
+    flex-direction: column;
 }
