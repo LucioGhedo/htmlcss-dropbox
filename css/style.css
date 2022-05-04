@@ -32,11 +32,17 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.blue {
+    color: blue;
+}
 /* common button */
 .btn {
     background-color: #0061ff;
     color: white;
     padding: 7px 10px;
+}
+.big-btn {
+    padding: 10px 15px;
 }
 /* HEADER */
 header {
@@ -119,7 +125,10 @@ h1 {
 }
 .padding-top-main {
     padding-top: 100px;
-
+    padding-bottom: 50px;
+}
+.padding-top-main h2 {
+    padding-left: 15px;
 }
 .circle {
     border: solid blue 3px;
@@ -191,10 +200,11 @@ h1 {
 }
 .border {
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0;
     width: 100%;
     border: solid lightgray 1px;
 }
+
 .flex-col {
     display: flex;
     justify-content: center;
@@ -203,7 +213,7 @@ h1 {
 }
 .text-left {
     text-align: left;
-    padding: 15px;
+    padding: 25px;
 }
 .position-ab {
     position: absolute;
@@ -236,4 +246,25 @@ h1 {
     border: solid grey 1px;
     padding: 15px;
     background-color: white;
+}
+/* DROPBOX BUSINESS 6 col */
+.flex-center {
+    justify-content: center;
+    display: flex;
+}
+.size {
+    font-size: 50px;
+    padding: 80px 8px;
+}
+.flex-col-2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    width: calc((69% / 3) + 80px)
+}
+.container-col-2 {
+    margin: 0 180px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
