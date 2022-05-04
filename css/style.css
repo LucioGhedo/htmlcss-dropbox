@@ -72,11 +72,16 @@ header img {
     padding: 0 20px;
     width: 180px;
 }
+su
 header ul {
     width: 450px;
 }
 header ul li {
     width: 160px;
+    padding: 27px 0;
+}
+header ul li:hover {
+    border-bottom: solid black 2px;
 }
 .padding-l {
     padding-left: 20px;
@@ -85,8 +90,7 @@ header ul li {
     width: 80px;
 }
 .width-2 {
-    width: 340px;
-    padding: 0 10px;
+    width: 220px;
 }
 
 /* JUMBO */
@@ -478,4 +482,27 @@ footer hr {
     width: 65%;
     margin: 0 auto;
     margin-bottom: 100px;
+}
+
+/* BONUS */
+.bonus-s {
+    position: relative;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    min-height: 90px;
+    padding: 15px 0;
+    z-index: 1;
+}
+.bonus-s:hover .dropdown {
+    display: block;
+}
+.dropdown a {
+    padding: 15px;
+}
+.no-hover:hover {
+    border: none;
 }
