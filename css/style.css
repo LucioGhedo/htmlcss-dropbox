@@ -9,7 +9,7 @@ body {
     font-family: sans-serif;
 }
 .width-container {
-    width: 68.5%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -25,7 +25,6 @@ img {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 a {
@@ -36,7 +35,7 @@ a {
     color: blue;
 }
 .container70 {
-    width: 98%;
+    width: 95.5%;
     margin: 0 auto;
 }
 .jumbo-container {
@@ -113,7 +112,7 @@ h1 {
     padding-bottom: 50px;
 }
 .jumbo-img {
-    width: 800px;
+    width: 60%;
     position: absolute;
     bottom: -60px;
     right: 0;
@@ -125,7 +124,8 @@ h1 {
 
 /* MAIN SECTION */
 .container {
-    width: 70%;
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-start;
 }
@@ -144,10 +144,10 @@ h1 {
     border-radius: 15px;
     display: inline-block;
     margin-top: 25px;
-    margin-left: 15px;
 }
 .no-blue {
     border: solid lightgray 0.5px;
+    margin-left: 15px;
 }
 
 /* COLONNE */
@@ -156,7 +156,6 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    width: 70%;
     margin: 0 auto;
 }
 .container-2 {
@@ -210,7 +209,7 @@ h1 {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    border: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
 }
 
 .flex-col {
@@ -218,6 +217,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: solid lightgray 1px;
 }
 .text-left {
     text-align: left;
@@ -262,7 +262,7 @@ h1 {
 }
 .size {
     font-size: 50px;
-    padding: 80px 8px;
+    padding: 80px 0;
 }
 .flex-col-2 {
     display: flex;
@@ -289,10 +289,10 @@ p span {
 /* PARTNER SECTION */
 .partners-titolo {
     font-size: 40px;
-    padding-left: 40px;
+    margin-bottom: 25px;
 }
 .link-partner {
-    padding: 40px 40px;
+    padding: 40px 0;
 }
 .link-partner a {
     text-decoration: underline;
@@ -306,6 +306,7 @@ p span {
 .col-loghi {
     display: flex;
     width: 100%;
+    margin-top: 45px;
 }
 .colonna-loghi {
     display: flex;
@@ -463,4 +464,20 @@ footer hr {
     left: 190px;
     bottom: 25px;
     color: grey;
+}
+
+
+
+/* TEST */
+.container-new {
+    width: 80%;
+    margin: 0 auto;
+}
+.main-container-new {
+    width: 70%;
+    margin: 0 auto;
+}
+.container-nuovo {
+    width: 67%;
+    margin: 0 auto;
 }
