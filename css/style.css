@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 /* COMMON */
+
 body {
     font-family: sans-serif;
 }
@@ -12,6 +13,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.flex-space-between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.border-full {
+    border: solid lightgray 1px;
 }
 .flex {
     display: flex;
@@ -36,10 +45,6 @@ a {
 }
 .container70 {
     width: 95.5%;
-    margin: 0 auto;
-}
-.jumbo-container {
-    width: 80%;
     margin: 0 auto;
 }
 /* common button */
@@ -85,9 +90,6 @@ header ul li {
 }
 
 /* JUMBO */
-.jumbo {
-    margin: 0 auto;
-}
 .jumbo-bck {
     background-color: #b4d0e7;
 }
@@ -265,8 +267,6 @@ h1 {
     padding: 80px 0;
 }
 .flex-col-2 {
-    display: flex;
-    justify-content: center;
     padding: 20px 30px;
     width: calc((69% / 3) + 80px)
 }
@@ -290,9 +290,6 @@ p span {
 .partners-titolo {
     font-size: 40px;
     margin-bottom: 25px;
-}
-.link-partner {
-    padding: 40px 0;
 }
 .link-partner a {
     text-decoration: underline;
@@ -480,4 +477,5 @@ footer hr {
 .container-new-faq {
     width: 65%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
