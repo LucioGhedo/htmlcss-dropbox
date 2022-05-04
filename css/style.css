@@ -55,6 +55,7 @@ a {
 }
 .big-btn {
     padding: 10px 15px;
+    margin-left: 15px;
 }
 /* HEADER */
 header {
@@ -196,9 +197,6 @@ h1 {
 }
 .padding-2 {
     padding: 25px 0;
-}
-.center {
-    margin-left: 60px;
 }
 .acquista-ora {
     margin: 25px 0;
