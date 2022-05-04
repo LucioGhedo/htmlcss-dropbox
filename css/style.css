@@ -329,7 +329,6 @@ p span {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 316.5px; */
     width: calc(100% / 2);
     height: calc(100% / 2);
 }
@@ -430,8 +429,6 @@ p span {
 footer {
     background-color: black;
     color: white;
-
-    /* TEST */
     height: 450px;
 }
 .flex-footer {
@@ -467,7 +464,7 @@ footer hr {
 
 
 
-/* TEST */
+/* NEW FIX */
 .container-new {
     width: 80%;
     margin: 0 auto;
