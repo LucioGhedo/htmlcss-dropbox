@@ -522,6 +522,10 @@ footer hr {
 .dropdown a {
     padding: 15px;
 }
+.no-hover {
+    display: flex;
+    justify-content: center;
+}
 .no-hover:hover {
     border: none;
 }
