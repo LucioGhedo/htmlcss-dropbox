@@ -77,13 +77,8 @@ header img {
     padding: 0 20px;
     width: 180px;
 }
-su
-header ul {
-    width: 450px;
-}
 header ul li {
-    width: 160px;
-    padding: 27px 0;
+    width: 150px;
 }
 header ul li:hover {
     border-bottom: solid black 2px;
