@@ -55,12 +55,16 @@ a {
 }
 .big-btn {
     padding: 10px 15px;
-    margin-left: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    justify-content: center;
 }
 /* HEADER */
 header {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     align-items: center;
     height: 70px;
     width: 100%;
@@ -494,18 +498,26 @@ footer hr {
     position: absolute;
     background-color: white;
     min-width: 200px;
-    min-height: 90px;
-    padding: 15px 0;
+    min-height: 50px;
+    padding: 0;
     z-index: 1;
 }
+.dropdown:hover {
+    border-top: solid black 2px;
+}
 .bonus-s:hover .dropdown {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .dropdown a {
     padding: 15px;
 }
 .no-hover:hover {
     border: none;
+}
+.dropdown a:hover {
+    background-color: lightgray;
 }
 
 /* BONUS 2 */
